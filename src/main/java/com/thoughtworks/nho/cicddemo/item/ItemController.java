@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class ItemController {
     @RequestMapping("/")
     public String get(){
-        return "Hello World!!!!!";
+        return "Hello World#####";
     }
 }
