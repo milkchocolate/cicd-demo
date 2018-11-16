@@ -1,4 +1,5 @@
 pipeline {
+    agent none
     stages {
         stage('Run Unit Tests') {
             agent { docker 'openjdk:11-jdk-oracle' }
