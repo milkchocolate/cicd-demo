@@ -13,7 +13,7 @@ public class CicdDemoApplicationTests {
 
     @Test
     public void contextLoads() {
-        assertEquals(1, 1);
+        assertEquals(1, 2);
     }
 
 }
